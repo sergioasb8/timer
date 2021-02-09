@@ -22,7 +22,7 @@ function App() {
     <Router>
         <Header />
         <Switch>
-        <Route path="/" exact>
+        <Route path="/timer" exact>
             <Inicio />
           </Route>
           <Route path="/Cronometer">

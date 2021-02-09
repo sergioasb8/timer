@@ -42,7 +42,7 @@ function Header () {
 
             <nav id="menu" className={estadoMostrar}>
                 <ul>
-                    <li><button type="button" onClick={handleMostrar} className="btn" id="Inicio"><Link to="/" style={{ color: 'white', textDecoration: 'none'}}>Inicio</Link></button></li>
+                    <li><button type="button" onClick={handleMostrar} className="btn" id="Inicio"><Link to="/timer" style={{ color: 'white', textDecoration: 'none'}}>Inicio</Link></button></li>
                     <li> <button type="button" onClick={handleMostrar} className="btn" id="Cronometer"><Link to="/Cronometer" style={{ color: 'white', textDecoration: 'none'}}>Cronometro </Link></button></li>
                     <li><button type="button" onClick={handleMostrar} className="btn" id="Tabata"><Link to="/Tabata" style={{ color: 'white', textDecoration: 'none'}}>Tabata</Link></button></li>
                     <li><button type="button" onClick={handleMostrar} className="btn" id="ForTime"><Link to="/ForTime" style={{ color: 'white', textDecoration: 'none'}}>For Time</Link></button></li>

@@ -22,6 +22,9 @@ function App() {
     <Router>
         <Header />
         <Switch>
+        <Route path="/" exact>
+            <Inicio />
+          </Route>
           <Route path="/Cronometer">
             <Cronometer />
           </Route>
@@ -36,9 +39,6 @@ function App() {
           </Route>
           <Route path="/Amrap">
             <Amrap />
-          </Route>
-          <Route path="/" exact>
-            <Inicio />
           </Route>
         </Switch>
         <footer>
